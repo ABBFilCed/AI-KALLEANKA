@@ -5,7 +5,8 @@ Detta mål är något jag inte lyckats uppnå men jag tänker ändå gå igenom 
 
 ## Pratbubblor
 Först och främst var meningen att träna en AI till att känna igen pratbubblor. Till detta använde jag metoden YOLO (You Only Look Once)
-Inspiration fick jag [Härifrån](https://colab.research.google.com/drive/1WHguFsueli-kBhyfcb5dDnZ66urTlFXU).
+Inspiration fick jag [Härifrån](https://colab.research.google.com/drive/1WHguFsueli-kBhyfcb5dDnZ66urTlFXU) och [Härifrån](https://github.com/abbjoafli/ComputerVision#train-yolo2-with-custom-objects).
+Jag gjorde mitt eget dataset med pratbubblor med hjälp av denna [Guide](https://medium.com/@manivannan_data/yolo-annotation-tool-new-18c7847a2186).
 
 ## Textigenkänning
 I det här projektet behövde jag använda mig av två olika textigenkännings eller OCR metoder.
@@ -24,6 +25,6 @@ Som nämnt tidigare tänkte jag använda en AI för att generera ny text till pr
 ## Sammanställning
 Programmet i helhet skulle fungera på ett sådant sätt att man matade in en sida ur eller en hel kalleanka tidning. Sedan användes Yolo tränad på pratbubblorna till att ta reda på var i bilden pratbubblorna var. Detta gjordes innan textigenkänningen eftersom jag inte ville byta ut annan text än den i pratbubblorna då jag tror att detta hade försämrat resultatet. Därefter skulle OCR metod två användas för att ta reda på vart det fanns text i pratbubblorna och dessa områden skulle maskeras över med vitt. Sedan skulle ny autogenerarad text placeras ovanpå dessa vita lager.
 
-
-
-Skulle jag göra om projektet skulle jag ha gjort ett projekt som involverade färre delar.
+## Samanfattning
+Som sagt blev jag inte färdig med hela detta projekt men jag kom en bit och jag har lärt mig mycket på vägens gång.
+Skulle jag göra om projektet skulle jag ha gjort ett projekt som involverade färre delar eller i alla fall flera delar som kunde agera självständigt så att det inte gjort lika mycket om jag misslyckats med någon del. När man håller på med sådana här projekt är man väldigt beroende på andras arbete eftersom det skulle vara så gott som omöjligt att göra detta från scratch på tiden som var tillgänglig. Ibland får man detta att fungera utmärkt och ibland gör man det inte och detta råkade vara en av gångerna då det inte gjorde det.
