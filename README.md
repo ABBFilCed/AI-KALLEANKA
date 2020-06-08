@@ -1,3 +1,4 @@
+Kalle anka AI-H1
 Hej!
 
 Detta projekts mening var att byta ut texten i pratbubblorna på kalleankatidningar mot annan autogenererad text.
