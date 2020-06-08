@@ -6,7 +6,8 @@ Detta mål är något jag inte lyckats uppnå men jag tänker ändå gå igenom 
 ## Pratbubblor
 Först och främst var meningen att träna en AI till att känna igen pratbubblor. Till detta använde jag metoden YOLO (You Only Look Once)
 Inspiration fick jag [Härifrån](https://colab.research.google.com/drive/1WHguFsueli-kBhyfcb5dDnZ66urTlFXU) och [Härifrån](https://github.com/abbjoafli/ComputerVision#train-yolo2-with-custom-objects).
-Jag gjorde mitt eget dataset med pratbubblor med hjälp av denna [Guide](https://medium.com/@manivannan_data/yolo-annotation-tool-new-18c7847a2186).
+Jag gjorde mitt eget dataset med pratbubblor med hjälp av denna [Guide](https://medium.com/@manivannan_data/yolo-annotation-tool-new-18c7847a2186). Detta är colaben för [Yolo pratbubblor](https://colab.research.google.com/drive/1Ed3q4sc2p9-_cFtjLg36hT-BOalslfdx#scrollTo=sx6mR4m2vAMb)
+
 
 ## Textigenkänning
 I det här projektet behövde jag använda mig av två olika textigenkännings eller OCR metoder.
